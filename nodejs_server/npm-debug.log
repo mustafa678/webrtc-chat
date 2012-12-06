@@ -1,0 +1,20 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'nodejs', '/usr/bin/npm', 'install' ]
+2 info using npm@1.1.66
+3 info using node@v0.8.15
+4 verbose read json /home/mustafa/public_html/ewp/nodejs_server/package.json
+5 error install Couldn't read dependencies
+6 error Error: ENOENT, open '/home/mustafa/public_html/ewp/nodejs_server/package.json'
+7 error If you need help, you may report this log at:
+7 error     <http://github.com/isaacs/npm/issues>
+7 error or email it to:
+7 error     <npm-@googlegroups.com>
+8 error System Linux 3.5.0-19-generic
+9 error command "nodejs" "/usr/bin/npm" "install"
+10 error cwd /home/mustafa/public_html/ewp/nodejs_server
+11 error node -v v0.8.15
+12 error npm -v 1.1.66
+13 error path /home/mustafa/public_html/ewp/nodejs_server/package.json
+14 error code ENOENT
+15 error errno 34
+16 verbose exit [ 34, true ]
